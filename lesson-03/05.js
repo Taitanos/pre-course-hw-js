@@ -26,4 +26,4 @@ const newObj = {
     address: 'Unknown'
 }
 
-console.log({...users2, '3' : newObj})
+console.log(users2.push(newObj))
